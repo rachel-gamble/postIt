@@ -9,11 +9,21 @@
         <input v-model="editable.title" type="text" required class="form-control" id="title" placeholder="Album Title">
         <label for="title">Album Title</label>
       </div>
+
+
+
+
+
       <div class="form-floating mb-3 elevation-5">
         <input v-model="editable.coverImg" type="url" required class="form-control" id="coverImg"
           placeholder="Cover Image">
         <label for="coverImg">Cover Image</label>
       </div>
+
+
+
+
+      
       <div class="form-floating mb-3 elevation-5">
         <select v-model="editable.category" class="form-select" id="floatingSelect"
           aria-label="Floating label select example">
